@@ -3,17 +3,27 @@
 repository: ahmad-malik12/ahmad-malik12.github.io
 favicon: images/favicon.ico
 
+# Content version
+
 version: 2
+
+# Personal info
 
 name: Muhammad Ahmad
 title: Computer Science Student
 email: [26100200@lums.edu.pk](mailto:26100200@lums.edu.pk)
 website: https://github.com/ahmad-malik12
 
+# Theme settings
+
 darkmode: false
+
+# Social links
 
 github_username: ahmad-malik12
 linkedin_username: Muhammad Ahmad
+
+# About section
 
 about_profile_image: images/profile.jpg
 about_content: |
@@ -22,6 +32,8 @@ I am a Computer Science student at Lahore University of Management Sciences with
 I enjoy building practical applications and improving my skills through real-world projects.
 
 My key skills include Python, TypeScript, and Java.
+
+# Content
 
 content:
 
@@ -62,8 +74,14 @@ content:
   * Python
   * TypeScript
   * Java
+  * Problem Solving
+  * Software Development
+
+# Footer
 
 footer_show_references: false
+
+# Build settings
 
 remote_theme: sproogen/resume-theme
 
