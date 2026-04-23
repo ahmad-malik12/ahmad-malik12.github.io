@@ -1,0 +1,76 @@
+# Site
+
+repository: ahmad-malik12/ahmad-malik12.github.io
+favicon: images/favicon.ico
+
+version: 2
+
+name: Muhammad Ahmad
+title: Computer Science Student
+email: [26100200@lums.edu.pk](mailto:26100200@lums.edu.pk)
+website: https://github.com/ahmad-malik12
+
+darkmode: false
+
+github_username: ahmad-malik12
+linkedin_username: Muhammad Ahmad
+
+about_profile_image: images/profile.jpg
+about_content: |
+I am a Computer Science student at Lahore University of Management Sciences with a strong interest in software development and artificial intelligence.
+
+I enjoy building practical applications and improving my skills through real-world projects.
+
+My key skills include Python, TypeScript, and Java.
+
+content:
+
+* title: Projects
+  layout: list
+  content:
+
+  * layout: top-middle
+    title: TradeUp
+    link: https://github.com/Raiyaan17/P04-TradeUp
+    additional_links:
+
+    * title: TradeUp Repository
+      icon: fab fa-github
+      url: https://github.com/Raiyaan17/P04-TradeUp
+      quote: >
+      A stock trading simulation platform for risk-free learning.
+      description: |
+      TradeUp is a stock trading simulation platform that allows users to practice trading using real-time market data without financial risk.
+
+    It provides a realistic environment where users can learn trading strategies, analyze market trends, and build confidence through hands-on experience.
+
+* title: Education
+  layout: list
+  content:
+
+  * layout: left
+    title: Lahore University of Management Sciences
+    caption: 4-Year Program
+    sub_title: Bachelor of Science in Computer Science
+    description: |
+    Currently pursuing a degree in Computer Science with a focus on software development and artificial intelligence.
+
+* title: Skills
+  layout: text
+  content: |
+
+  * Python
+  * TypeScript
+  * Java
+
+footer_show_references: false
+
+remote_theme: sproogen/resume-theme
+
+sass:
+sass_dir: _sass
+style: compressed
+
+plugins:
+
+* jekyll-seo-tag
