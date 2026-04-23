@@ -1,94 +1,74 @@
 # Site
-
-repository: ahmad-malik12/ahmad-malik12.github.io
+repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
-# Content version
-
+# Content configuration version
 version: 2
 
 # Personal info
-
 name: Muhammad Ahmad
-title: Computer Science Student
-email: [26100200@lums.edu.pk](mailto:26100200@lums.edu.pk)
-website: https://github.com/ahmad-malik12
+title: CS Undergraduate | Software Developer
+email: 26100200@lums.edu.pk
+website: www.github.com/ahmad-malik12
 
-# Theme settings
-
+# Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-
 github_username: ahmad-malik12
 linkedin_username: Muhammad Ahmad
 
-# About section
+# Additional icon links
+additional_links:
+- title: github.com/ahmad-malik12
+  icon: fas fa-globe
+  url: https://www.github.com/ahmad-malik12
 
+# About Section
 about_profile_image: images/profile.jpg
 about_content: |
-I am a Computer Science student at Lahore University of Management Sciences with a strong interest in software development and artificial intelligence.
+  Hi, I'm Muhammad Ahmad, a Computer Science student at LUMS with a focus on software development and AI/ML. I enjoy building practical tools and learning by doing.
 
-I enjoy building practical applications and improving my skills through real-world projects.
-
-My key skills include Python, TypeScript, and Java.
-
-# Content
+  I am most skilled in: <mark>Python</mark>, <mark>TypeScript</mark>, and <mark>Java</mark>
 
 content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: TradeUp
+        link: github.com/Raiyaan17/P04-TradeUp
+        additional_links:
+          - title: Raiyaan17/P04-TradeUp
+            icon: fab fa-github
+            url: https://github.com/Raiyaan17/P04-TradeUp
+        description: |
+          A stock trading simulation platform built for people who want to learn trading without the financial risk. It pulls real-time market data to mirror actual market movement, so users get a realistic experience. The goal was to give users a space to build confidence and sharpen their trading decisions before putting real money on the line.
 
-* title: Projects
-  layout: list
-  content:
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Lahore University of Management Sciences
+        caption: 4-Year Program
+        sub_title: BSc Computer Science
+        description: |
+          I'm currently pursuing my Bachelor's in Computer Science at LUMS. My coursework and projects have built my foundation in software engineering, algorithms, and machine learning. Outside of class, I spend time working on personal projects to apply what I learn.
 
-  * layout: top-middle
-    title: TradeUp
-    link: https://github.com/Raiyaan17/P04-TradeUp
-    additional_links:
-
-    * title: TradeUp Repository
-      icon: fab fa-github
-      url: https://github.com/Raiyaan17/P04-TradeUp
-      quote: >
-      A stock trading simulation platform for risk-free learning.
-      description: |
-      TradeUp is a stock trading simulation platform that allows users to practice trading using real-time market data without financial risk.
-
-    It provides a realistic environment where users can learn trading strategies, analyze market trends, and build confidence through hands-on experience.
-
-* title: Education
-  layout: list
-  content:
-
-  * layout: left
-    title: Lahore University of Management Sciences
-    caption: 4-Year Program
-    sub_title: Bachelor of Science in Computer Science
-    description: |
-    Currently pursuing a degree in Computer Science with a focus on software development and artificial intelligence.
-
-* title: Skills
-  layout: text
-  content: |
-
-  * Python
-  * TypeScript
-  * Java
-  * Problem Solving
-  * Software Development
+  - title: A Little More About Me
+    layout: text
+    content: |
+      My main interests are software development and AI/ML. I'm drawn to projects where I can build something functional and learn a new tool or concept in the process.
 
 # Footer
-
-footer_show_references: false
+footer_show_references: true
 
 # Build settings
-
 remote_theme: sproogen/resume-theme
 
 sass:
-sass_dir: _sass
-style: compressed
+  sass_dir: _sass
+  style: compressed
 
 plugins:
-
-* jekyll-seo-tag
+ - jekyll-seo-tag
