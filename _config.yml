@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Muhammad Ahmad
-title: CS Undergraduate | Software Developer
+title: CS Undergraduate | Full-Stack & Android Developer
 email: 26100200@lums.edu.pk
 website: www.github.com/ahmad-malik12
 
@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 github_username: ahmad-malik12
-linkedin_username: Muhammad Ahmad
+linkedin_username: muhammadahmad-malik
 
 # Additional icon links
 additional_links:
@@ -27,48 +27,118 @@ additional_links:
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  Hi, I'm Muhammad Ahmad, a Computer Science student at LUMS with a focus on software development and AI/ML. I enjoy building practical tools and learning by doing.
+  I'm Muhammad Ahmad, a Computer Science student at LUMS (2022–2026) with hands-on experience in full-stack web development, native Android development, and AI integration. I've built production-grade projects across the MERN stack, Next.js/NestJS, and Java Android — and I care about writing code that actually works at scale.
 
-  I am most skilled in: <mark>Python</mark>, <mark>TypeScript</mark>, and <mark>Java</mark>
+  Most skilled in: <mark>TypeScript</mark>, <mark>Java</mark>, <mark>Python</mark>, <mark>React.js</mark>, <mark>NestJS</mark>, and <mark>PostgreSQL</mark>
 
 content:
+  - title: Professional Experience
+    layout: list
+    content:
+      - layout: left
+        title: OptimusFox (Pvt.) Ltd.
+        sub_title: Frontend Developer Intern — MERN Stack
+        caption: 2024
+        description: |
+          Built and deployed responsive React.js components for client-facing web applications, reducing page load time by 20% through code splitting and lazy loading. Integrated RESTful APIs with Node.js and Express backends across 5+ application modules, and collaborated with developers using Git version control with code reviews.
+
+      - layout: left
+        title: Masihai
+        sub_title: Social Media Lead
+        caption: 2021
+        description: |
+          Led a team of 6 interns executing data-driven social media strategies for 15+ partner pharmacies, increasing online engagement by 23% and driving a 17% rise in foot traffic within three months.
+
   - title: Projects
     layout: list
     content:
       - layout: top-middle
-        title: TradeUp
+        title: TradeUp — PSX Paper Trading Platform
         link: github.com/Raiyaan17/P04-TradeUp
         additional_links:
           - title: Raiyaan17/P04-TradeUp
             icon: fab fa-github
             url: https://github.com/Raiyaan17/P04-TradeUp
+        quote: >
+          TypeScript, Next.js, NestJS, PostgreSQL, Prisma, Socket.IO, Google Gemini API
         description: |
-          A stock trading simulation platform built for people who want to learn trading without the financial risk. It pulls real-time market data to mirror actual market movement, so users get a realistic experience. The goal was to give users a space to build confidence and sharpen their trading decisions before putting real money on the line.
+          A full-stack paper trading platform for Pakistani equities. Built with Next.js 16 (App Router) and NestJS with Fastify, backed by PostgreSQL via Prisma ORM across 14 data models and 57 REST API endpoints. Features a real-time WebSocket streaming system that fan-outs live PSX stock prices to frontend clients via Socket.IO rooms, a multi-turn AI trading chatbot powered by Google Gemini with a 6-model quota fallback chain, and a rate-limit-aware background worker using NestJS cron jobs to safely fetch 102 stock symbols within PSX Terminal's 100 req/min cap.
+
+      - layout: top-middle
+        title: Event Management App — Android
+        link: github.com/CS360S26prompt/prompt-develop
+        additional_links:
+          - title: CS360S26prompt/prompt-develop
+            icon: fab fa-github
+            url: https://github.com/CS360S26prompt/prompt-develop
+        quote: >
+          Java, Firebase Auth, Cloud Firestore, MVVM, JUnit, Mockito, Espresso
+        description: |
+          A dual-role (Student/Organizer) native Android app built in Java with MVVM architecture and a generic BaseRepository layer over Cloud Firestore. Features Firebase Authentication with role-based UI gating, a 7-screen payment flow using a shared ViewModel with client-side regex validation, RSVP and notification systems, and a 1,700+ LOC test suite across 17 test files using JUnit, Mockito, Robolectric, and Espresso.
+
+      - layout: top-middle
+        title: Real-Time Multiplayer Game — MERN Stack
+        quote: >
+          MongoDB, Express, React, Node.js, Socket.IO
+        description: |
+          A real-time multiplayer color conquest game with Socket.IO for live state synchronization and a matchmaking system to manage distributed game sessions.
+
+      - layout: top-middle
+        title: 2D Platformer — Unity
+        quote: >
+          C#, Unity
+        description: |
+          A 2D platformer with a multi-tiered combat engine, enemy AI behavior trees, and an in-game economy featuring multiple currencies, collectibles, and a store interface with unlockable items.
+
+      - layout: top-middle
+        title: Distributed Systems Suite
+        quote: >
+          C++, TCP/IP, Sockets
+        description: |
+          A suite of networking projects including a multi-threaded TCP/IP chat server, Link-State and Distance-Vector routing protocols implemented from scratch, and a DHT-based P2P file-sharing system using consistent hashing with automatic fault detection and file redistribution on node failure.
 
   - title: Education
     layout: list
     content:
       - layout: left
         title: Lahore University of Management Sciences
-        caption: 4-Year Program
+        caption: 2022 – 2026
         sub_title: BSc Computer Science
         description: |
-          I'm currently pursuing my Bachelor's in Computer Science at LUMS. My coursework and projects have built my foundation in software engineering, algorithms, and machine learning. Outside of class, I spend time working on personal projects to apply what I learn.
+          Relevant Courses: Network-Centric Computing, Machine Learning, Deep Learning, Advanced Programming, Theory of Automata, Algorithms, Database Systems, Game Design and Development, Signals and Systems.
 
-  - title: A Little More About Me
+      - layout: left
+        title: Bloomfield Hall School
+        caption: 2018 – 2022
+        sub_title: O levels | 5A*s 3As &nbsp;&nbsp; A levels | 1A 2B
+        description: |
+          High Achievement Award for both O level and A level grades.
+
+  - title: Skills
     layout: text
     content: |
-      My main interests are software development and AI/ML. I'm drawn to projects where I can build something functional and learn a new tool or concept in the process.
+      **Languages:** C++, Python, TypeScript, JavaScript, SQL, C#
+
+      **Frameworks & Libraries:** React.js, Next.js, Node.js, NestJS, Express.js, Fastify, Socket.IO, Prisma, Scikit-learn, PyTorch, Zod, React Hook Form
+
+      **Tools & Platforms:** PostgreSQL, MongoDB, Supabase, Git, GitHub, Docker, Vercel, Unity, Swagger/OpenAPI
+
+      **Concepts:** REST APIs, WebSockets, JWT/RBAC, OOP, Data Structures, Algorithms, Machine Learning, Deep Learning, Distributed Systems, TCP/IP, Generative AI, Prompt Engineering
+
+  - title: Leadership & Extracurriculars
+    layout: text
+    content: |
+      **LUMS Culinary Club — Vice-President Operations** *(2024 – present)*
+
+      Managed end-to-end event operations for Master Chef at LUMS, leading 20 volunteers, coordinating with 4 celebrity judges, and securing PKR 3.5 million in sponsorships.
 
 # Footer
 footer_show_references: true
 
 # Build settings
 remote_theme: sproogen/resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
  - jekyll-seo-tag
